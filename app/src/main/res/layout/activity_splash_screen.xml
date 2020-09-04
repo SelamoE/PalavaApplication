@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="239dp"
+        android:layout_height="146dp"
+        android:text="This is a splash screen"
+        android:textColor="#3C2B16"
+        android:textColorHighlight="#2C1511"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="133dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
