@@ -6,4 +6,101 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="337dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginStart="74dp"
+        android:text="LOGIN"
+        app:layout_constraintBottom_toTopOf="@+id/loginSingupButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/loginSingupButton"
+        android:layout_width="340dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="440dp"
+        android:text="SIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/loginRememberMe"
+        android:layout_width="332dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:text="Remember me"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="327dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/loginRememberMe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/loginName"
+        android:layout_width="323dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toTopOf="@+id/loginPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="73dp"
+        android:layout_height="56dp"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#5E35B1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/loginName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <TextView
+        android:id="@+id/loginForgotPassword"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginStart="75dp"
+        android:text="forgot your password?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginSingupButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
