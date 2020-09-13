@@ -32,9 +32,11 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //TODO Validating users and if user information is correct, change to app activity
                 Intent intent = new Intent(LoginActivity.this,RegisterActivity.class);
                 startActivity(intent);
             }

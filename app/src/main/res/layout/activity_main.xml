@@ -2,6 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myMap"
+    android:name= "com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -14,7 +16,7 @@
         android:layout_marginLeft="37dp"
         android:layout_marginRight="41dp"
         android:layout_marginStart="37dp"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#5E35B1"
         android:textColorHighlight="#3949AB"
@@ -34,7 +36,7 @@
         android:layout_marginLeft="36dp"
         android:layout_marginRight="19dp"
         android:layout_marginStart="36dp"
-        android:text="SIGNUP"
+        android:text="@string/signup"
         android:textColor="#3949AB"
         android:textColorHighlight="#3949AB"
         android:textSize="24sp"
@@ -58,7 +60,8 @@
         app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/ic_launcher_background"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/mainText"
@@ -70,7 +73,7 @@
         android:layout_marginRight="12dp"
         android:layout_marginStart="31dp"
         android:layout_marginTop="66dp"
-        android:text="WELCOME"
+        android:text="@string/welcome"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#8E24AA"
         android:textColorHint="#3949AB"
