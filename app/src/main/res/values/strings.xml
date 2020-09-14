@@ -5,6 +5,7 @@
     <string name="signup">SIGNUP</string>
     <string name="login">LOGIN</string>
     <string name="welcome">WELCOME</string>
+    <string name="write_a_msg">Type a message</string>
     <string name="title_activity_location">Map</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC19gZFIlF5OVySzG9iMAeDFzOmUuCHZ5Q</string>
 </resources>
